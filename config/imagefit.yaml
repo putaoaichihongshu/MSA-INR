@@ -1,0 +1,18 @@
+model: msa
+images: [camera]
+
+hidden_features: 256
+hidden_layers: 4
+out_features: 1
+s_min: [1.2, 1.2, 1.2, 0]
+s_max: [4.0, 4.0, 4.0, 0.8]
+#mode: 'sin+fr'
+#mapping_size: 512
+#scale: 10
+
+seed: 42
+in_features: 2
+epochs: 5000
+lr: 0.001
+lr_min: 3e-4
+

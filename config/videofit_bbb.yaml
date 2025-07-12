@@ -1,0 +1,17 @@
+model: msa
+video_path: bbb.mp4
+max_frames: 100
+num_epochs: 500
+batch_size: 20480
+
+#s_min: [1.0, 1.0, 1.0, 1.0]
+#s_max: [1.5, 1.5, 1.5, 1.5]
+mode: 'sin+fr'
+lr: 0.001
+lr_min: 0.0005
+hidden_layers: 3
+hidden_features: 400
+in_features: 3
+out_features: 3
+save_frames: [24, 49, 74, 99]
+seed: 42

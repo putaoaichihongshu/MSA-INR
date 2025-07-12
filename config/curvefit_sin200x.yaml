@@ -1,0 +1,20 @@
+# sin(200x)
+target: sin_200x
+
+# 模型参数
+in_features: 1
+hidden_features: 256
+hidden_layers: 4
+out_features: 1
+
+#s_min: [1, 1, 1, 0]
+#s_max: [6.0, 6.0, 6.0, 0.6]
+
+
+# 训练参数
+epochs: 10000
+lr: 0.0001
+lr_min: 1e-7
+n_train: 4000
+batch_size: 4000
+seed: 43
